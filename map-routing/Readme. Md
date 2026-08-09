@@ -1,0 +1,29 @@
+# Map Routing
+
+## Overview
+
+This module calculates the distance and estimated arrival time between an ambulance and a hospital.
+
+## Features
+
+- Coordinate-based distance calculation
+- ETA calculation
+- Traffic factor support
+- Nearby hospital identification
+- Route service abstraction
+- Mock coordinates for initial testing
+- Backend-independent routing service
+
+## Usage
+
+The routing service accepts ambulance and hospital coordinates and returns the calculated distance and ETA.
+
+Traffic factors can be applied to adjust the ETA based on traffic conditions.
+
+## Testing
+
+The module uses mock coordinates initially and includes simple test cases for distance, ETA, traffic, and hospital location calculations.
+
+## Future Enhancement
+
+A real map API can be integrated later without rewriting the entire routing module.
